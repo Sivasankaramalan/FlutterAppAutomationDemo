@@ -1,29 +1,36 @@
+
+
+
+
+
 # Amplify Flutter Example
 
-Sample flutter app for getting started with the Amplify Flutter Library.  This example uses the Auth, Analytics, and Storage components of the Flutter library. 
+Sample flutter app for getting started with the Amplify Flutter Library for Adding Backend service to the App.  This example uses the Auth, Analytics, and Storage components of the Flutter library. 
+
+App developed with Two pages
+
+1. Sign In
+2. Sign Up
 
 Please check out our docs here:
 https://docs.amplify.aws/start/q/integration/flutter
 
 ## Getting Started
 
-**IMPORTANT** 
+**Run Appium test on Android**
 
-**The app will not compile until you use the Amplify CLI to configure AWS resources necessary for running this app, or create your own amplifyconfiguration.dart file using the example in our documentation'.** 
+- Change directory to **`/appium`** wihtin the project.
+- Start appium server by invoking command **`appium`** in console.
+- Verify the connected Device by running **`adb devices`**
+- Change the Android configuration such as device `udid` **`test.js`** file under **`~/appium`**
+- Install required nodejs package by invoking **`npm install`**
+- Run below command to start the Test
+***`APPIUM_OS=android npm start`***
 
-This is because it does not contain an `amplifyconfiguration.dart` file necessary for connecting with AWS services.
-
-You will need to use Amplify CLI to init the app and configure Analytics, Auth, and Storage. Please follow the instructions here: 
-
-https://docs.amplify.aws/start/getting-started/add-api/q/integration/flutter#setup-aws-cloud-resources-with-amplify-cli
-
-For this example app you will also need to call `amplify add auth`, and `amplify add storage` with the Amplify CLI and call `amplify push` again.  
-
-Running these steps will generate the `amplifyconfiguration.dart` file within the `lib` folder. 
 
 ## Important Notes 
 
-This is a very basic app that interacts with AWS resources. We did not implement UI showing that the app is "loading" or "uploading" something from AWS. Some operations like logging in or uploading an image can take some time.
+This is a very basic app that interacts with AWS resources. I did not implement UI showing that the app is "loading" or "uploading" something from AWS. Some operations like logging in or uploading an image can take some time.
 
 Please note when signing up that you MUST provide a country code for a new user's phone number.  For example, if you number is American, you will need to append +1 at the beginning.  
 
