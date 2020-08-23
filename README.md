@@ -3,7 +3,7 @@
 
 
 
-# Amplify Flutter Example
+# Flutter Example App for Appium Demo
 
 Sample flutter app for getting started with the Amplify Flutter Library for Adding Backend service to the App.  This example uses the Auth, Analytics, and Storage components of the Flutter library. 
 
