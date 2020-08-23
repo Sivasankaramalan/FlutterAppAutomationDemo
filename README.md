@@ -27,6 +27,7 @@ https://docs.amplify.aws/start/q/integration/flutter
 - Run below command to start the Test
 ***`APPIUM_OS=android npm start`***
 
+[![asciicast](https://asciinema.org/a/eilgKWkASmV2LvWsWkmP71jTL.svg)](https://asciinema.org/a/eilgKWkASmV2LvWsWkmP71jTL)
 
 ## Important Notes 
 
